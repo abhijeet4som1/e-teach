@@ -1,0 +1,25 @@
+<form data-toggle="validator" role="form" action="/login" method="post" name="login-form" id="login-form">
+	<div class="form-group">
+	    <label for="userName" class="control-label">Login</label>
+	    <div class="input-group">
+	    <input type="text" name="userName" class="form-control" id="userName" placeholder="Username or email" required>
+	    <div class="input-group-addon"><i class="fa fa-user"></i></div>
+	    </div>
+	    <div class="help-block with-errors"></div>
+  	</div>
+	<div class="form-group" id="login-password-group">
+		<label for="password">Password</label>
+		<div class="input-group">
+			<input type="password" name="password" class="form-control" id="password" placeholder="&#149;&#149;&#149;&#149;&#149;&#149;&#149;&#149;" required>
+			<div class="input-group-addon"><i class="fa fa-lock"></i></div>
+		</div>
+		<div class="help-block"></div>
+	</div>
+	<div class="checkbox">
+		<label>
+			<input type="checkbox" name="rememberMe" value="remember"> Remember me
+		</label>
+	</div>
+	<button type="submit" class="btn btn-primary">Log In</button>
+	<a href="#" class="pull-right">Lost your password?</a>
+</form>

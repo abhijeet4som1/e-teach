@@ -1,0 +1,4 @@
+create databse ITeach;
+use ITeach;
+create table users(user_name varchar(30) ,email_id varchar(50) not null,password varchar(150) not null,password_salt varchar(50) not null,email_activated char(1) ,account_activated char(1) ,user_type char(7) not null,activation_key varchar(50), primary key (user_name));
+create table emails( email_id int(10) unsigned AUTO_INCREMENT PRIMARY KEY, email_to varchar(400) not null, email_from varchar(50) not null,email_from_name varchar(50), email_sub varchar(400) not null, email_body varchar(40000) not null,email_attachments varchar(4000), created_on timestamp not null, created_by varchar(30), send_attempt int(2), email_status char(1), sent_on timestamp);

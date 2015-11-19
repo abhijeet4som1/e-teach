@@ -1,0 +1,375 @@
+@(title: String)
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>@title</title>
+@requiredAssetsCSS()
+</head>
+<body>
+@studentZoneHeader()
+<div id="#top"></div>
+    <section id="home">
+    	<div id="slides">
+			<div class="slides-container">
+				<img src="@routes.Assets.versioned("images/banner-bg.jpg")" alt="" />
+				<img src="@routes.Assets.versioned("images/banner-bg2.jpg")" alt="" />
+				<img src="@routes.Assets.versioned("images/banner-bg3.gif")" alt="" />
+			</div>
+			<div class="tint">
+				<div class="welcome text-center">
+					<h1>1-to-1 Teaching Solution</h1>
+					<p>Attend 24x7 online classes</p>
+					<i class="fa fa-angle-down"></i>
+				</div>
+			</div>
+		</div>
+		<div id="rooms">
+			<div class="container text-center">
+				<div class="row no-fade">
+					<div class="col-sm-4">
+						<div class="box background background1">
+							<h3>Select Courses</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris suscipit, ante ut consequat tempor, sapien urna adipiscing leo, vitae lacinia ante nibh.</p>
+						</div>
+						<div class="icon img-circle">
+							<img src="@routes.Assets.versioned("images/icon-soother.png")" alt="" />
+						</div>
+						<div class="arrow background background1"></div>
+					</div>
+					<div class="col-sm-4">
+						<div class="box background background2">
+							<h3>Select Tutor</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris suscipit, ante ut consequat tempor, sapien urna adipiscing leo, vitae lacinia ante nibh.</p>
+						</div>
+						<div class="icon img-circle">
+							<img src="@routes.Assets.versioned("images/icon-bear.png")" alt="" />
+						</div>
+						<div class="arrow background background2"></div>
+					</div>
+					<div class="col-sm-4">
+						<div class="box background background3">
+							<h3>Ask Doubts</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris suscipit, ante ut consequat tempor, sapien urna adipiscing leo, vitae lacinia ante nibh.</p>
+						</div>
+						<div class="icon img-circle">
+							<img src="@routes.Assets.versioned("images/icon-horse.png")" alt="" />
+						</div>
+						<div class="arrow background background3"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+    </section>
+
+    <!--Price Table-->
+    <section id="courses" class="secPad white">
+    <div class="container" style="margin-bottom: 2em;">
+         <div class="heading text-center">
+                <!-- Heading -->
+                <h2>Courses offered</h2>
+                <p>Monthly Tuitions, Exam preparation and Technical courses</p>
+            </div>
+         	<div class="row">
+				<div class="col-md-4">
+					<div class="featured-box">
+						<i class="fa fa-cogs fa-2x"></i>
+						<div class="text">
+							<h3>8<sup>th</sup> - 12<sup>th</sup></h3>
+							Science, Mathematics, Physics etc.<br/><br/><br/><br/>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="featured-box">
+						<i class="fa fa-certificate fa-2x"></i>
+						<div class="text">
+							<h3>IIT JEE/AIEEE</h3>
+							Entrance preparation, Physics, Chemistry and Mathematics.<br/><br/><br/>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="featured-box">
+						<i class="fa fa-leaf fa-2x"></i>
+						<div class="text">
+							<h3>HTML5/CSS3</h3>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="featured-box">
+						<i class="fa fa-tachometer fa-2x"></i>
+						<div class="text">
+							<h3>Web Designing</h3>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="featured-box">
+						<i class="fa fa-quote-right fa-2x"></i>
+						<div class="text">
+							<h3>Data Base</h3>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="featured-box">
+						<i class="fa fa-arrows fa-2x"></i>
+						<div class="text">
+							<h3>Mobile App Dev</h3>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</div>
+					</div>
+				</div>
+			</div>
+         </div>      
+   </section>
+    
+    <section id="tutors">
+      <div class="container">
+       <!-- Our courses titile -->
+        <div class="heading text-center">
+                <!-- Heading -->
+                <h2>Our Tutors</h2>
+                <p>Monthly Tuitions, Exam preparation and Technical courses</p>
+            </div>
+        <!-- End Our courses titile -->
+
+        <!-- Start Our courses content -->
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="ourTutors_content" style="margin-top: -3em;">
+              <!-- Start Tutors nav -->
+              <ul class="tutors_nav">
+                <li style="max-width:238px !important;">
+                  <div class="single_tutors">
+                    <div class="tutors_thumb">
+                      <img src="@routes.Assets.versioned("images/author.jpg")" />                      
+                    </div>
+                    <div class="singTutors_content">
+                      <h3 class="tutors_name">Jame Burns</h3>
+                      <span>Technology Teacher</span>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                    </div>
+                    <div class="singTutors_social">
+                      <ul class="tutors_socnav">
+                        <li><a class="fa fa-facebook" href="#"></a></li>
+                        <li><a class="fa fa-twitter" href="#"></a></li>
+                        <li><a class="fa fa-instagram" href="#"></a></li>
+                        <li><a class="fa fa-google-plus" href="#"></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li style="max-width:238px !important;">
+                  <div class="single_tutors">
+                    <div class="tutors_thumb">
+                      <img src="@routes.Assets.versioned("images/course-1.jpg")" />                      
+                    </div>
+                    <div class="singTutors_content">
+                      <h3 class="tutors_name">Jame Burns</h3>
+                      <span>Technology Teacher</span>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                    </div>
+                    <div class="singTutors_social">
+                      <ul class="tutors_socnav">
+                        <li><a class="fa fa-facebook" href="#"></a></li>
+                        <li><a class="fa fa-twitter" href="#"></a></li>
+                        <li><a class="fa fa-instagram" href="#"></a></li>
+                        <li><a class="fa fa-google-plus" href="#"></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li style="max-width:238px !important;">
+                  <div class="single_tutors">
+                    <div class="tutors_thumb">
+                      <img src="@routes.Assets.versioned("images/author.jpg")" />                      
+                    </div>
+                    <div class="singTutors_content">
+                      <h3 class="tutors_name">Jame Burns</h3>
+                      <span>Technology Teacher</span>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                    </div>
+                    <div class="singTutors_social">
+                      <ul class="tutors_socnav">
+                        <li><a class="fa fa-facebook" href="#"></a></li>
+                        <li><a class="fa fa-twitter" href="#"></a></li>
+                        <li><a class="fa fa-instagram" href="#"></a></li>
+                        <li><a class="fa fa-google-plus" href="#"></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="single_tutors">
+                    <div class="tutors_thumb">
+                      <img src="@routes.Assets.versioned("images/course-1.jpg")" />                      
+                    </div>
+                    <div class="singTutors_content">
+                      <h3 class="tutors_name">Jame Burns</h3>
+                      <span>Technology Teacher</span>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                    </div>
+                    <div class="singTutors_social">
+                      <ul class="tutors_socnav">
+                        <li><a class="fa fa-facebook" href="#"></a></li>
+                        <li><a class="fa fa-twitter" href="#"></a></li>
+                        <li><a class="fa fa-instagram" href="#"></a></li>
+                        <li><a class="fa fa-google-plus" href="#"></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li >
+                  <div class="single_tutors">
+                    <div class="tutors_thumb">
+                      <img src="@routes.Assets.versioned("images/author.jpg")" />                      
+                    </div>
+                    <div class="singTutors_content">
+                      <h3 class="tutors_name">Jame Burns</h3>
+                      <span>Technology Teacher</span>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                    </div>
+                    <div class="singTutors_social">
+                      <ul class="tutors_socnav">
+                        <li><a class="fa fa-facebook" href="#"></a></li>
+                        <li><a class="fa fa-twitter" href="#"></a></li>
+                        <li><a class="fa fa-instagram" href="#"></a></li>
+                        <li><a class="fa fa-google-plus" href="#"></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="single_tutors">
+                    <div class="tutors_thumb">
+                      <img src="@routes.Assets.versioned("images/course-1.jpg")" />                      
+                    </div>
+                    <div class="singTutors_content">
+                      <h3 class="tutors_name">Jame Burns</h3>
+                      <span>Technology Teacher</span>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                    </div>
+                    <div class="singTutors_social">
+                      <ul class="tutors_socnav">
+                        <li><a class="fa fa-facebook" href="#"></a></li>
+                        <li><a class="fa fa-twitter" href="#"></a></li>
+                        <li><a class="fa fa-instagram" href="#"></a></li>
+                        <li><a class="fa fa-google-plus" href="#"></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>                                             
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                    <!-- Bottom Carousel Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#quote-carousel" data-slide-to="1" class=""></li>
+                        <li data-target="#quote-carousel" data-slide-to="2" class=""></li>
+                    </ol>
+
+                    <!-- Carousel Slides / Quotes -->
+                    <div class="carousel-inner">
+                        <!-- Quote 1 -->
+                        <div class="item active">
+                            <blockquote>
+                                <div class="row">
+                                    <div class="col-sm-3 text-center">
+                                        <img class="img-circle" src="@routes.Assets.versioned("images/person_1.png")" style="width: 100px; height: 100px;">
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!</p>
+                                        <small>Someone famous</small>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                        <!-- Quote 2 -->
+                        <div class="item">
+                            <blockquote>
+                                <div class="row">
+                                    <div class="col-sm-3 text-center">
+                                        <img class="img-circle" src="@routes.Assets.versioned("images/person_2.png")" style="width: 100px; height: 100px;">
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris.</p>
+                                        <small>Someone famous</small>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                        <!-- Quote 3 -->
+                        <div class="item">
+                            <blockquote>
+                                <div class="row">
+                                    <div class="col-sm-3 text-center">
+                                        <img class="img-circle" src="@routes.Assets.versioned("images/person_3.png")" style="width: 100px; height: 100px;">
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.</p>
+                                        <small>Someone famous</small>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+
+                    <!-- Carousel Buttons Next/Prev -->
+                    <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+                    <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- End Our courses content -->
+      </div>
+    </section>   
+
+	<!--Contact -->
+    <section id="joinUs" class="page-section secPad">
+    <div class="heading text-center">
+                <!-- Heading -->
+                <h2 style="color:#000;">Join Us</h2>
+                <p>For a free session now!</p>
+            </div>
+        <div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<h1 class="h1header"><b>Log In</b></h1>
+						<h3>Already a Member? Log in here.</h3>
+						<div id="loginFormContainer">
+							@loginForm()
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<h1 class="h1header"><b>Register</b></h1>
+						<h3>Do not have an account? Register here.</h3>
+						<div id="registerFormContainer">
+							@RegisterForm("STUDENT")
+						</div>
+					</div>
+				</div>
+			</div>
+    </section>
+@studentFooter()
+</body>
+</html>
+@requiredAssetsJS()
+<script type="text/javascript">
+$( document ).ready(function() {
+	studentPageInitialize();
+});
+</script>

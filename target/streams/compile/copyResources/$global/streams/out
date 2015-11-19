@@ -1,0 +1,7 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/Abhijeet/work/project/I-Teach/conf/META-INF,/home/Abhijeet/work/project/I-Teach/target/scala-2.11/classes/META-INF)[0m
+[0m[[0mdebug[0m] [0m	(/home/Abhijeet/work/project/I-Teach/conf/routes,/home/Abhijeet/work/project/I-Teach/target/scala-2.11/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/home/Abhijeet/work/project/I-Teach/conf/application.conf,/home/Abhijeet/work/project/I-Teach/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/Abhijeet/work/project/I-Teach/conf/logback.xml,/home/Abhijeet/work/project/I-Teach/target/scala-2.11/classes/logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(/home/Abhijeet/work/project/I-Teach/conf/EmailClient.properties,/home/Abhijeet/work/project/I-Teach/target/scala-2.11/classes/EmailClient.properties)[0m
+[0m[[0mdebug[0m] [0m	(/home/Abhijeet/work/project/I-Teach/conf/META-INF/persistence.xml,/home/Abhijeet/work/project/I-Teach/target/scala-2.11/classes/META-INF/persistence.xml)[0m

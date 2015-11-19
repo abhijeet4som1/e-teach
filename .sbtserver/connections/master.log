@@ -1,0 +1,7 @@
+New log file opened at Tue Nov 17 07:00:38 IST 2015 by 7667@localhost.localdomain
+Taking next connection to: 52376
+New client attempting to connect on port: 39020-52376
+  Address = /127.0.0.1:52376
+This client on port 39020 has uuid d5b55bd4-bcfa-4d47-92fe-f80021a47c8c configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-d5b55bd4-bcfa-4d47-92fe-f80021a47c8c
+Taking next connection to: 52376
